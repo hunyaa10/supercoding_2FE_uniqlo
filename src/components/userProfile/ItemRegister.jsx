@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { containSlang } from "../../utils/validation";
+import { containSlang } from "../../utils/validations";
 import { handleKeyDown } from "../../utils/keyDownHandler";
 import axios from "axios";
 import {

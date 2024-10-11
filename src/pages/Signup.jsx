@@ -5,7 +5,7 @@ import {
   isValidPassword,
   isValidPhone,
   containSlang,
-} from "../utils/validation";
+} from "../utils/validations";
 
 import { useNavigate } from "react-router-dom";
 import { checkEmail, formSubmit } from "../api/api";

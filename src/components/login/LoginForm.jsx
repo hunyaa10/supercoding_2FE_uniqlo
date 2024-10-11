@@ -1,7 +1,7 @@
 import React, { useState, useContext } from "react";
 import { useNavigate } from "react-router-dom";
 import { login } from "../../api/api";
-import { isValidEmail, isValidPassword } from "../../utils/validation.js";
+import { isValidEmail, isValidPassword } from "../../utils/validations.js";
 import * as L from "../../styles/LoginStyle";
 import LoginButton from "./LoginButton.jsx";
 import { UserContext } from "../../hook/context/UserContext.js";
